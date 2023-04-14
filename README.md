@@ -1,6 +1,7 @@
 # MedFlamingo
 Basically Flamingo fine-tuned with MDCLIP and BioGPT!!
-![](MedFlamingo.png | width=100)
+
+![ScreenShot](MedFlamingo.png | width=100)
 
 # Flamingo mini
 Implementation of the <a href="https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model" target="blank">deepmind  Flamingo</a> vision-language model, which enables an existing language model with to understand visual input such as images or videos. The code is based on <a href="https://github.com/lucidrains/flamingo-pytorch" target="blank">Lucidrains implementation</a> of the perceiver resampler and the gated cross-attention layers, and utilizes pretrained vision and language models from <a href="https://huggingface.co/" target="blank"> 🤗 Hugging Face</a>. At the moment there are two versions available, based on GPT-2 and OPT. They have been tested with openai CLIP vision encoders `openai/clip-vit-base-patch32` and `openai/clip-vit-large-patch14`.  
